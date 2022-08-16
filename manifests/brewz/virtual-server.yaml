@@ -12,6 +12,9 @@ spec:
     - name: api
       service: api
       port: 8000
+    - name: spa-dark
+      service: spa-dark
+      port: 80
   routes:
     - path: /
       action:
